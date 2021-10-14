@@ -10,4 +10,4 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - run: perl -q F_M_C_D_GodSpeed.21_1
+      - run: perl sample_eval -q avs.qrels.main.tv21 F_M_C_D_GodSpeed.21_1
